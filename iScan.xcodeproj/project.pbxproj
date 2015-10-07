@@ -343,7 +343,9 @@
 			baseConfigurationReference = D326512B73F1EDDC969676AA /* Pods-iScan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zigoapps.iScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,7 +357,9 @@
 			baseConfigurationReference = AC93F781567A2953C8D66813 /* Pods-iScan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zigoapps.iScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
