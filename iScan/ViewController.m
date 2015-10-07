@@ -28,7 +28,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Check the segue identifier
-    if ([segue.identifier isEqualToString:@"cameraView"])
+    if ([segue.identifier isEqualToString:@"toCameraSegue"])
     {
         // Get a reference to your custom view controller
         CameraViewController *customViewController = segue.destinationViewController;
@@ -41,8 +41,9 @@
 
 -(void)ProcessImage:(UIImage *)aImage{
     NSString *readData = [self processOCR:aImage];
-    _mTextView.text = readData;
+   
     dispatch_async( dispatch_get_main_queue(), ^{
+         _mTextView.text = readData;
         [_hud hide:true];
            });
    }

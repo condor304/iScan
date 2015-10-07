@@ -18,6 +18,7 @@
 		75145C581BC3182500E17451 /* IPDFCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75145C571BC3182500E17451 /* IPDFCameraViewController.m */; settings = {ASSET_TAGS = (); }; };
 		75145C5A1BC3183C00E17451 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 75145C591BC3183C00E17451 /* tessdata */; settings = {ASSET_TAGS = (); }; };
 		75145C621BC31A5C00E17451 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75145C611BC31A5C00E17451 /* CameraViewController.m */; settings = {ASSET_TAGS = (); }; };
+		75145C641BC4F86C00E17451 /* capture_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75145C631BC4F86C00E17451 /* capture_button@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		75145C591BC3183C00E17451 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		75145C601BC31A5C00E17451 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
 		75145C611BC31A5C00E17451 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		75145C631BC4F86C00E17451 /* capture_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capture_button@2x.png"; sourceTree = "<group>"; };
 		AC93F781567A2953C8D66813 /* Pods-iScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iScan.release.xcconfig"; path = "Pods/Target Support Files/Pods-iScan/Pods-iScan.release.xcconfig"; sourceTree = "<group>"; };
 		D326512B73F1EDDC969676AA /* Pods-iScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iScan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iScan/Pods-iScan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +94,7 @@
 		75145C3B1BC317E800E17451 /* iScan */ = {
 			isa = PBXGroup;
 			children = (
+				75145C631BC4F86C00E17451 /* capture_button@2x.png */,
 				75145C591BC3183C00E17451 /* tessdata */,
 				75145C561BC3182500E17451 /* IPDFCameraViewController.h */,
 				75145C571BC3182500E17451 /* IPDFCameraViewController.m */,
@@ -181,6 +184,7 @@
 				75145C4F1BC317E800E17451 /* LaunchScreen.storyboard in Resources */,
 				75145C5A1BC3183C00E17451 /* tessdata in Resources */,
 				75145C4C1BC317E800E17451 /* Assets.xcassets in Resources */,
+				75145C641BC4F86C00E17451 /* capture_button@2x.png in Resources */,
 				75145C471BC317E800E17451 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
