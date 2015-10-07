@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <TesseractOCR/TesseractOCR.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import "CameraViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<G8TesseractDelegate,MyCameraDelegate>
 
+@property MBProgressHUD *hud;
+@property (weak, nonatomic) IBOutlet UITextView *mTextView;
 
 @end
 
